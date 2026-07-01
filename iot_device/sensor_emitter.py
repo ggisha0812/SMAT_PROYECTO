@@ -4,7 +4,7 @@ import random
 
 # CONFIGURACIÓN
 # Nota: Verifica si tu FastAPI corre en el puerto 8000 o en el 3000 según tus laboratorios previos
-API_URL = "http://localhost:3000/api/lecturas/"  # Ajustar ruta si tu endpoint varía
+API_URL = "http://localhost:8000/lecturas/"  # Ajustar ruta si tu endpoint varía
 
 def enviar_telemetria():
     print("=== EMULADOR DE HARDWARE IoT SMAT INICIADO ===")
